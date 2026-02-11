@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "game_server" {
-  ami           = "i-073282e8e74ccf369" 
+  ami           = "ami-0ba8d27d35e9915fb" 
   instance_type = "t3.small"
   key_name      = "jenkin"
 
