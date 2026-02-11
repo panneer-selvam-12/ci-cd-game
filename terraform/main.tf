@@ -1,11 +1,11 @@
 provider "aws" {
-  region = "ap-southeast-2"
+  region = "ap-south-1"
 }
 
 resource "aws_instance" "game_server" {
-  ami           = "ami-0ba8d27d35e9915fb" 
+  ami           = "ami-019715e0d74f695be" 
   instance_type = "t3.small"
-  key_name      = "jenkin"
+  key_name      = "key"
 
   security_groups = [aws_security_group.game.name]
 
