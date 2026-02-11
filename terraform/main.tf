@@ -18,7 +18,7 @@ resource "aws_instance" "game_server" {
               EOF
 
   tags = {
-    Name = "Game-Server"
+    Name = "Game"
   }
 }
 
